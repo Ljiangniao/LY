@@ -1,5 +1,6 @@
 import { AppProps } from 'next/app';
-import Header from'@/component/Header.tsx'
+import Header from'@/component/Header.tsx';
+import '@/style/index.scss'
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

@@ -1,3 +1,7 @@
 export default function Index(){
-    return <>index</>
+    return <div className={`home`}>
+        <span className={`home-title`}>
+            index
+        </span>
+    </div>
 }
